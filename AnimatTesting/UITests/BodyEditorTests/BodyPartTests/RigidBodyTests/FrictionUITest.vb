@@ -43,9 +43,9 @@ Namespace UITests
                         Dim fltFriction2 As Single = CSng(TestContext.DataRow("Friction2"))
                         Dim fltFriction3 As Single = CSng(TestContext.DataRow("Friction3"))
 
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         m_strStructureGroup = "Structures"
                         m_strStruct1Name = "Structure_1"
@@ -232,9 +232,9 @@ Namespace UITests
 
                         m_strPhysicsEngine = "Bullet"
                         m_strProjectName = "BoxFriction_KgM"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         m_strStructureGroup = "Structures"
                         m_strStruct1Name = "Structure_1"
@@ -317,9 +317,9 @@ Namespace UITests
                         Dim fltFriction2 As Single = CSng(TestContext.DataRow("Friction2"))
                         Dim fltFriction3 As Single = CSng(TestContext.DataRow("Friction3"))
 
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         m_strStructureGroup = "Structures"
                         m_strStruct1Name = "Structure_1"
@@ -421,9 +421,9 @@ Namespace UITests
 
                         m_strPhysicsEngine = "Vortex"
                         m_strProjectName = "Sphere_Friction_KgM"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         m_strStructureGroup = "Structures"
                         m_strStruct1Name = "Structure_1"
@@ -504,9 +504,9 @@ Namespace UITests
 
                         If Not bEnabled Then Return
 
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         m_strStructureGroup = "Structures"
                         m_strStruct1Name = "Structure_1"

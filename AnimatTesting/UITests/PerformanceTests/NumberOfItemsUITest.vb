@@ -26,7 +26,7 @@ Namespace UITests
                 ClickToolbarItem("NewToolStripButton", False)
 
                 'Set params and hit ok button
-                ExecuteActiveDialogMethod("SetProjectParams", New Object() {"NumberOfItems", m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\PerformanceTests"})
+                ExecuteActiveDialogMethod("SetProjectParams", New Object() {"NumberOfItems", m_strRootFolder & "\AnimatTesting\TestProjects\PerformanceTests"})
                 ExecuteIndirectActiveDialogMethod("ClickOkButton", Nothing, 2000)
 
                 CreateStructure(m_strStructureGroup, m_strStruct1Name, m_strStruct1Name, False)
@@ -83,7 +83,7 @@ Namespace UITests
 
                 ExportDataCharts()
 
-                Dim dblAvgTime As Double = CalculateChartColumnAverage(m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\PerformanceTests\NumberOfItems\DataTool_1.txt", 1)
+                Dim dblAvgTime As Double = CalculateChartColumnAverage(m_strRootFolder & "\AnimatTesting\TestProjects\PerformanceTests\NumberOfItems\DataTool_1.txt", 1)
 
                 m_aryStepTimes.Add(dblAvgTime)
             End Sub
@@ -115,7 +115,7 @@ Namespace UITests
                 MyBase.MyTestInitialize()
 
                 'Make sure any left over project directory is cleaned up before starting the test.
-                DeleteDirectory(m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\PerformanceTests\NumberOfItems")
+                DeleteDirectory(m_strRootFolder & "\AnimatTesting\TestProjects\PerformanceTests\NumberOfItems")
 
                 SetStructureNames("1", False)
             End Sub
@@ -124,7 +124,7 @@ Namespace UITests
             <TestCleanup()> Public Overrides Sub MyTestCleanup()
                 MyBase.MyTestCleanup()
 
-                DeleteDirectory(m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\PerformanceTests\NumberOfItems")
+                DeleteDirectory(m_strRootFolder & "\AnimatTesting\TestProjects\PerformanceTests\NumberOfItems")
             End Sub
 
 #End Region

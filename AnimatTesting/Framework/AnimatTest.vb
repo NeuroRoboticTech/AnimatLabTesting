@@ -41,6 +41,7 @@ Namespace Framework
         Protected Shared m_oServer As AnimatServer.Server
         Protected Shared m_tcpChannel As TcpChannel
         Protected Shared m_strRootFolder As String
+        Protected Shared m_strExecutableFolder As String
         Protected Shared m_bGenerateTempates As Boolean = False
         Protected Shared m_bAttachServerOnly As Boolean = False
         Protected m_strProjectName As String = ""
@@ -64,6 +65,11 @@ Namespace Framework
             m_strRootFolder = System.Configuration.ConfigurationManager.AppSettings("RootFolder")
             If m_strRootFolder Is Nothing OrElse m_strRootFolder.Trim.Length = 0 Then
                 Throw New System.Exception("Root Folder path was not found in configuration file.")
+            End If
+
+            m_strExecutableFolder = System.Configuration.ConfigurationManager.AppSettings("ExecutableFolder")
+            If m_strExecutableFolder Is Nothing OrElse m_strExecutableFolder.Trim.Length = 0 Then
+                Throw New System.Exception("Executable Folder path was not found in configuration file.")
             End If
 
             m_bGenerateTempates = CType(System.Configuration.ConfigurationManager.AppSettings("GenerateTemplates"), Boolean)
@@ -99,7 +105,7 @@ Namespace Framework
                 End If
                 strArgs = strArgs & " -Port " & iPort.ToString
 
-                Process.Start(m_strRootFolder & "\bin\AnimatLab2.exe", strArgs)
+                Process.Start(m_strExecutableFolder & "\AnimatLab2.exe", strArgs)
                 'Process.Start("C:\Program Files (x86)\NeuroRobotic Technologies\AnimatLab\2.0.7\bin\AnimatLab2.exe", strArgs)
 
                 Threading.Thread.Sleep(3000)

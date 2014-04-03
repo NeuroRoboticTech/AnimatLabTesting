@@ -54,9 +54,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_BistableNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -120,9 +120,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_GatedSynapse"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -206,9 +206,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_ModulatedSynapse"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -280,9 +280,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_NormalNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -374,9 +374,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_NormalSynapse"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -438,9 +438,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_PacemakerNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -508,9 +508,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_RandomNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -590,9 +590,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "FiringRate_TonicNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -623,9 +623,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_ClassicalConditioning"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -688,9 +688,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_EndogenousBurster"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -773,9 +773,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_IonChannels"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -867,9 +867,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_NonspikingChemicalSynapses"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -938,9 +938,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_ElectricalSynapses"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -997,9 +997,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_SpikingChemicalSynapses"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -1280,9 +1280,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_SpikingNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -1422,9 +1422,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_LateralInhibition"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -1451,9 +1451,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "IGF_CompartmentalModel"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
 
                     'Load and convert the project.
@@ -1487,9 +1487,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "NetworkOscillators"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
 
                     m_aryWindowsToOpen.Clear()
                     m_aryWindowsToOpen.Add("Tool Viewers\IGF_NeuralData")
@@ -1527,9 +1527,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "Adapters"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
 
                     m_aryWindowsToOpen.Clear()
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
@@ -1732,9 +1732,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0001)
 
                     m_strProjectName = "TestCopyPasteCut"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
 
                     m_aryWindowsToOpen.Clear()
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
@@ -2135,9 +2135,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.0000000001)
 
                     m_strProjectName = "CurrentStimuli"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
 
                     m_aryWindowsToOpen.Clear()
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")
@@ -2213,9 +2213,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.00001)
 
                     m_strProjectName = "IGF_SynapseTypes"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\NeuralTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\NeuralTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\NeuralTests\" & m_strProjectName
 
                     m_aryWindowsToOpen.Clear()
                     m_aryWindowsToOpen.Add("Tool Viewers\NeuralData")

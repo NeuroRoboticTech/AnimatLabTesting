@@ -115,8 +115,8 @@ Namespace UITests
 
                         m_strPartType = "Torus"
                         m_strProjectName = "TorusTest"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         m_ptClickToAddChild = New Point(775, 353)
 

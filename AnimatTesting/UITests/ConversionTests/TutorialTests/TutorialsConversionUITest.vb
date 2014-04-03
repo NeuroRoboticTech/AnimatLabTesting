@@ -54,9 +54,9 @@ Namespace UITests
                     aryMaxErrors.Add("Angle", 0.005)
 
                     m_strProjectName = "Hinge"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -87,9 +87,9 @@ Namespace UITests
 
 
                     m_strProjectName = "Muscle"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -117,9 +117,9 @@ Namespace UITests
                     aryMaxErrors.Add("FF", 0.005)
 
                     m_strProjectName = "Spring"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -147,9 +147,9 @@ Namespace UITests
                     aryMaxErrors.Add("II", 0.3)
 
                     m_strProjectName = "StretchReceptor"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\BodyParts"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\BodyParts\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\BodyParts\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -175,9 +175,9 @@ Namespace UITests
                     aryMaxErrors.Add("Y", 0.05)
 
                     m_strProjectName = "Buoyancy"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\MechanicalTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\MechanicalTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\MechanicalTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\MechanicalTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\MechanicalTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\MechanicalTests\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -208,9 +208,9 @@ Namespace UITests
                     aryMaxErrors.Add("2", 0.0001)
 
                     m_strProjectName = "Spring"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\MechanicalTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\MechanicalTests\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\MechanicalTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\MechanicalTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\MechanicalTests\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\MechanicalTests\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -295,9 +295,9 @@ Namespace UITests
                     aryMaxErrors.Add("Rotation", 0.05)
 
                     m_strProjectName = "Motors"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\MotorSystems"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\MotorSystems\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\MotorSystems\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\MotorSystems"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\MotorSystems\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\MotorSystems\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -327,9 +327,9 @@ Namespace UITests
                     aryMaxErrors.Add("Ground", 0.2)
 
                     m_strProjectName = "ContactSensor"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -361,9 +361,9 @@ Namespace UITests
                     aryMaxErrors.Add("RightOdor", 5)
 
                     m_strProjectName = "Eating"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -395,9 +395,9 @@ Namespace UITests
                     aryMaxErrors.Add("OS", 0.05)
 
                     m_strProjectName = "OdorTracking"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -426,9 +426,9 @@ Namespace UITests
                     aryMaxErrors.Add("PEP", 0.07)
 
                     m_strProjectName = "JointAngle"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -458,9 +458,9 @@ Namespace UITests
                     aryMaxErrors.Add("A5", 0.001)
 
                     m_strProjectName = "TouchReceptiveFields"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\SensorySystems"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\SensorySystems\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\SensorySystems\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -480,9 +480,9 @@ Namespace UITests
                     aryMaxErrors.Add("Ie", 0.0000000005)
 
                     m_strProjectName = "AddingCurrents"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -510,9 +510,9 @@ Namespace UITests
                     aryMaxErrors.Add("AVm", 0.0005)
 
                     m_strProjectName = "Enabler"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -747,9 +747,9 @@ Namespace UITests
                     aryMaxErrors.Add("Rotation", 0.005)
 
                     m_strProjectName = "Force"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -775,9 +775,9 @@ Namespace UITests
                     aryMaxErrors.Add("Rotation", 0.025)
 
                     m_strProjectName = "MotorVelocity"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\StimulusTutorials"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\StimulusTutorials\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\StimulusTutorials\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -797,9 +797,9 @@ Namespace UITests
                     aryMaxErrors.Add("10", 0.0005)
 
                     m_strProjectName = "BehavioralEditor"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\UsingAnimatlab"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\UsingAnimatlab\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\UsingAnimatlab\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\UsingAnimatlab"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\UsingAnimatlab\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\UsingAnimatlab\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -819,9 +819,9 @@ Namespace UITests
                     'to make random vars consistnetly produce exact same output. so just make sure it loads and runs.
 
                     m_strProjectName = "LineChart"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\UsingAnimatlab"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\UsingAnimatlab\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\UsingAnimatlab\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\UsingAnimatlab"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\UsingAnimatlab\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\UsingAnimatlab\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -839,9 +839,9 @@ Namespace UITests
                     Dim aryMaxErrors As New Hashtable
 
                     m_strProjectName = "Relabel"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\UsingAnimatlab"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\UsingAnimatlab\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\UsingAnimatlab\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\UsingAnimatlab"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\UsingAnimatlab\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\UsingAnimatlab\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -863,9 +863,9 @@ Namespace UITests
                     aryMaxErrors.Add("Ii", 0.0005)
 
                     m_strProjectName = "BistableFiringRateNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -888,9 +888,9 @@ Namespace UITests
                     Next
 
                     m_strProjectName = "Bumps"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -912,9 +912,9 @@ Namespace UITests
                     aryMaxErrors.Add("3", 0.00005)
 
                     m_strProjectName = "ClassicalConditioning"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -939,9 +939,9 @@ Namespace UITests
                     aryMaxErrors.Add("DistalInhibition", 0.00005)
 
                     m_strProjectName = "CompartmentalModel"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -967,9 +967,9 @@ Namespace UITests
                     'TODO: Need to come up with a way of testing if it is qualitatively doing the right thing.
 
                     m_strProjectName = "Coordination"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -991,9 +991,9 @@ Namespace UITests
                     aryMaxErrors.Add("2", 0.00005)
 
                     m_strProjectName = "ElectricalSynapses"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1017,9 +1017,9 @@ Namespace UITests
                     aryMaxErrors.Add("External", 0.0000000001)
 
                     m_strProjectName = "EndogenousBursters"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1103,9 +1103,9 @@ Namespace UITests
 
 
                     m_strProjectName = "FastNeuralNetNeurons"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1146,9 +1146,9 @@ Namespace UITests
                     aryMaxErrors.Add("1FFoff", 0.005)
 
                     m_strProjectName = "FiringRateGatedSynapse"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1180,9 +1180,9 @@ Namespace UITests
                     aryMaxErrors.Add("1FFNeg", 0.005)
 
                     m_strProjectName = "FiringRateModulatorySynapse"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1208,9 +1208,9 @@ Namespace UITests
                     aryMaxErrors.Add("1FF", 0.005)
 
                     m_strProjectName = "FiringRateNormalSynapse"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1234,9 +1234,9 @@ Namespace UITests
                     aryMaxErrors.Add("1", 0.0000000001)
 
                     m_strProjectName = "HH_IonChannels"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1257,9 +1257,9 @@ Namespace UITests
                     aryMaxErrors.Add("1", 0.00005)
 
                     m_strProjectName = "IntegrateAndFireNeurons"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1280,9 +1280,9 @@ Namespace UITests
                     aryMaxErrors.Add("B", 0.00005)
 
                     m_strProjectName = "IonChannel_HalfCenters"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1305,9 +1305,9 @@ Namespace UITests
                     Next
 
                     m_strProjectName = "LateralInhibition"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1328,9 +1328,9 @@ Namespace UITests
                     aryMaxErrors.Add("2", 0.00005)
 
                     m_strProjectName = "LTP"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1355,9 +1355,9 @@ Namespace UITests
                     aryMaxErrors.Add("B", 0.005)
 
                     m_strProjectName = "NetworkOscillators"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1378,9 +1378,9 @@ Namespace UITests
                     aryMaxErrors.Add("2", 0.00005)
 
                     m_strProjectName = "NonspikingChemicalSynapses"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1402,9 +1402,9 @@ Namespace UITests
                     aryMaxErrors.Add("Ie", 0.0000000001)
 
                     m_strProjectName = "NormalFiringRateNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1429,9 +1429,9 @@ Namespace UITests
                     aryMaxErrors.Add("Interval", 0.005)
 
                     m_strProjectName = "Pacemaker"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1453,9 +1453,9 @@ Namespace UITests
                     aryMaxErrors.Add("Ii", 0.0000000001)
 
                     m_strProjectName = "RandomFiringRateNeuron"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1477,9 +1477,9 @@ Namespace UITests
                     aryMaxErrors.Add("3", 0.00005)
 
                     m_strProjectName = "SpikingChemicalSynapses"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1501,9 +1501,9 @@ Namespace UITests
                     aryMaxErrors.Add("3", 0.00005)
 
                     m_strProjectName = "VoltageDependentSynapses"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -1526,9 +1526,9 @@ Namespace UITests
                     Next
 
                     m_strProjectName = "OscillatingBumps"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\NeuralNetworks"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\NeuralNetworks\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\NeuralNetworks\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 

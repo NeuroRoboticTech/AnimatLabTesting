@@ -37,8 +37,8 @@ Namespace UITests
                     MyBase.MyTestInitialize()
 
                     m_strProjectName = "SpikingNeuronTest"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BehavioralEditorTests\IntegrateFireTests"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BehavioralEditorTests\IntegrateFireTests\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\BehavioralEditorTests\IntegrateFireTests"
+                    m_strTestDataPath = "\AnimatTesting\TestData\BehavioralEditorTests\IntegrateFireTests\" & m_strProjectName
 
                     m_bCreateStructure = False
 

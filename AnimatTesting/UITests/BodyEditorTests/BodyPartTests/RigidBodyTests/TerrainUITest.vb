@@ -193,8 +193,8 @@ Namespace UITests
                         m_strMeshFile = "TerrainTest_HeightMap2.jpg"
                         m_bTestDensity = False
 
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         m_strAmbient = "#AAAAAA"
 

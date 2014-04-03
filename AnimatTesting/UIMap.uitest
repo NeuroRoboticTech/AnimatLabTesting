@@ -274,7 +274,7 @@
     </MouseAction>
     <SetValueAction UIObjectName="UIMap.UIOpenanAnimatLabProjeWindow.UIItemWindow.UIAddressComboBox">
       <ParameterName />
-      <Value Encoded="false">C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest</Value>
+      <Value Encoded="false">C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest</Value>
       <Type>String</Type>
       <PreferEdit>True</PreferEdit>
     </SetValueAction>
@@ -1054,7 +1054,7 @@
                         <SearchConfiguration>VisibleOnly</SearchConfiguration>
                       </SearchConfigurations>
                       <AndCondition Id="SearchCondition">
-                        <PropertyCondition Name="Name">Go to "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest"</PropertyCondition>
+                        <PropertyCondition Name="Name">Go to "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest"</PropertyCondition>
                         <PropertyCondition Name="ControlType">Button</PropertyCondition>
                       </AndCondition>
                       <SupportLevel>0</SupportLevel>

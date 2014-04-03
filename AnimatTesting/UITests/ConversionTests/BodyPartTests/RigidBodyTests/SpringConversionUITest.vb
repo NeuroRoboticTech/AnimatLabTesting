@@ -64,9 +64,9 @@ Namespace UITests
                         aryMaxErrors.Add("default", 0.02)
 
                         m_strProjectName = "SpringTest"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
                         m_strStructureGroup = "Organisms"
                         m_strStruct1Name = "Organism_1"
 
@@ -322,7 +322,7 @@ Namespace UITests
                     End Sub
 
                     Protected Sub Generate_SpringEnableAdpaterTemplate()
-                        Dim strDataFile As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\EnableAdapter_BodyData.txt"
+                        Dim strDataFile As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\EnableAdapter_BodyData.txt"
                         Dim aryChartColumns() As String = {""}
                         Dim aryChartData As New List(Of List(Of Double))
                         Util.ReadCSVFileToList(strDataFile, aryChartColumns, aryChartData, True)
@@ -335,12 +335,12 @@ Namespace UITests
                         Dim oAnalysis As New DataAnalyzer()
                         oAnalysis.FindCriticalPoints(aryTime, aryData, -1, -1)
 
-                        oAnalysis.SaveData("C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\EnableAdapter_BodyData_Analysis.txt")
+                        oAnalysis.SaveData("C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\EnableAdapter_BodyData_Analysis.txt")
 
                     End Sub
 
                     Protected Sub Generate_SpringCreateABTemplate()
-                        Dim strDataFile As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\CreateA_B_BodyData.txt"
+                        Dim strDataFile As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\CreateA_B_BodyData.txt"
                         Dim aryChartColumns() As String = {""}
                         Dim aryChartData As New List(Of List(Of Double))
                         Util.ReadCSVFileToList(strDataFile, aryChartColumns, aryChartData, True)
@@ -353,12 +353,12 @@ Namespace UITests
                         Dim oAnalysis As New DataAnalyzer()
                         oAnalysis.FindCriticalPoints(aryTime, aryData, -1, -1)
 
-                        oAnalysis.SaveData("C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\CreateA_B_BodyData_Analysis.txt")
+                        oAnalysis.SaveData("C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\CreateA_B_BodyData_Analysis.txt")
 
                     End Sub
 
                     Protected Sub Generate_SpringStiff5KTemplate()
-                        Dim strDataFile As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\K1_L3_5_S5_BodyData.txt"
+                        Dim strDataFile As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\K1_L3_5_S5_BodyData.txt"
                         Dim aryChartColumns() As String = {""}
                         Dim aryChartData As New List(Of List(Of Double))
                         Util.ReadCSVFileToList(strDataFile, aryChartColumns, aryChartData, True)
@@ -376,7 +376,7 @@ Namespace UITests
                         'oTest.CompareValue = CriticalPoint.enumComparisonType.Fixed
                         'oTest.Time = 0.5
 
-                        oAnalysis.SaveData("C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\K1_L3_5_S5_BodyData_Analysis.txt")
+                        oAnalysis.SaveData("C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\SpringTest\K1_L3_5_S5_BodyData_Analysis.txt")
 
                     End Sub
 

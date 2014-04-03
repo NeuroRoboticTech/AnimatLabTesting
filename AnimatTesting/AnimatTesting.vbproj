@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
-    <OutputPath>..\..\bin\</OutputPath>
+    <OutputPath>..\..\AnimatLabPublicSource\bin\</OutputPath>
     <DocumentationFile>AnimatTesting.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
@@ -48,9 +48,8 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AnimatServer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\bin\AnimatServer.dll</HintPath>
+    <Reference Include="AnimatServer">
+      <HintPath>..\..\AnimatLabPublicSource\bin\AnimatServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -176,6 +175,7 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="appSettings.config" />
     <None Include="UIMap.uitest" />
   </ItemGroup>
   <ItemGroup>

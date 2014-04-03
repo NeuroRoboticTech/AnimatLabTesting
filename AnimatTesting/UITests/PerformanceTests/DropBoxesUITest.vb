@@ -120,9 +120,9 @@ Namespace UITests
                 MyBase.MyTestInitialize()
 
                 m_strProjectName = "DropBoxesTest"
-                m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\PerformanceTests"
-                m_strTestDataPath = "\Libraries\AnimatTesting\TestProjects\PerformanceTests\" & m_strProjectName
-                m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\PerformanceTests\" & m_strProjectName
+                m_strProjectPath = "\AnimatTesting\TestProjects\PerformanceTests"
+                m_strTestDataPath = "\AnimatTesting\TestProjects\PerformanceTests\" & m_strProjectName
+                m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\PerformanceTests\" & m_strProjectName
 
                 'Make sure any left over project directory is cleaned up before starting the test.
                 DeleteDirectory(m_strRootFolder & m_strProjectPath & "\" & m_strProjectName)

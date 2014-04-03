@@ -71,9 +71,9 @@ Namespace UITests
                         Dim dblChild2AttachPosZ As Double = CDbl(TestContext.DataRow("Child2Z"))
                         Dim strDataPrefix As String = CStr(TestContext.DataRow("DataPrefix"))
 
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
 
                         ModifyRootRotationInProjectFile(m_strOldProjectFolder, dblRootRotX, dblRootRotY, dblRootRotZ, strRootOrientation)
                         ModifyChild1RotationInProjectFile(m_strOldProjectFolder, "1585fba8-bcf1-47a2-8fe5-38403e4e18f0", dblChild1RotX, dblChild1RotY, dblChild1RotZ, strChild1Orientation)
@@ -122,9 +122,9 @@ Namespace UITests
                         aryMaxErrors.Add("default", 0.01)
 
                         m_strProjectName = "BalanceBeam"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\RigidBodyTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\RigidBodyTests\" & m_strProjectName
                         m_strStructureGroup = "Organisms"
                         m_strStruct1Name = "BalanceBeam"
 

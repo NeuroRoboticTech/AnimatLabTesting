@@ -59,9 +59,9 @@ Namespace UITests
                         aryMaxErrors.Add("default", 0.03)
 
                         m_strProjectName = "BallSocketTest"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\" & m_strProjectName
 
                         'Load and convert the project.
                         TestConversionProject("AfterConversion_", aryMaxErrors)

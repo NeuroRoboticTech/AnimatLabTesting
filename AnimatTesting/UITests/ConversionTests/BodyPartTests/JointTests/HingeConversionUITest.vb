@@ -58,9 +58,9 @@ Namespace UITests
                         Dim strOrientation As String = CStr(TestContext.DataRow("Orientation"))
                         Dim strDataPrefix As String = CStr(TestContext.DataRow("DataPrefix"))
 
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
 
                         ModifyJointRotationInProjectFile(m_strOldProjectFolder, dblJointRotX, dblJointRotY, dblJointRotZ, strOrientation)
 
@@ -94,9 +94,9 @@ Namespace UITests
                         aryMaxErrors.Add("Joint_1", CSng(TestContext.DataRow("MaxJointError")))
                         aryMaxErrors.Add("default", 0.04)
 
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
 
                         ModifyJointConstraintsInProjectFile(m_strOldProjectFolder, dblMin, dblMax, True, dblDamping, strRestitution, strStiffness)
 
@@ -124,9 +124,9 @@ Namespace UITests
                         aryMaxErrors.Add("default", 0.03)
 
                         m_strProjectName = "HingeMotorTest"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
+                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\HingeTests\" & m_strProjectName
 
                         Test_JointMotor(aryMaxErrors)
 

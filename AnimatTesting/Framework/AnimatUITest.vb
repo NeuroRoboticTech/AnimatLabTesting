@@ -1477,7 +1477,7 @@ Namespace Framework
             'Click 'Address: C:\Projects\AnimatLabSDK\Experiments\Conv...' tool bar
             Mouse.Click(uIAddressCProjectsAnimToolBar, New Point(285, 9))
 
-            'Select 'C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest' in 'Address' combo box
+            'Select 'C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest' in 'Address' combo box
             uIAddressComboBox.EditableItem = Me.UIMap.OpenProjectParams.UIAddressComboBoxEditableItem
 
             'Click 'Go to "C:\Projects\AnimatLabSDK\AnimatLabPublicSou...' button

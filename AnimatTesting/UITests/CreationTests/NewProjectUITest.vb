@@ -24,7 +24,7 @@ Namespace UITests
                 ClickToolbarItem("NewToolStripButton", False)
 
                 'Set params and hit ok button
-                ExecuteActiveDialogMethod("SetProjectParams", New Object() {"TestProject", m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\CreationTests"})
+                ExecuteActiveDialogMethod("SetProjectParams", New Object() {"TestProject", m_strRootFolder & "\AnimatTesting\TestProjects\CreationTests"})
                 ExecuteIndirectActiveDialogMethod("ClickOkButton", Nothing, 2000)
 
                 'Click the add structure button.
@@ -64,7 +64,7 @@ Namespace UITests
                 RunSimulationWaitToEnd()
 
                 'Compare chart data to verify simulation results.
-                CompareSimulation(m_strRootFolder & "\Libraries\AnimatTesting\TestData\CreationTests\NewProjectUITest\")
+                CompareSimulation(m_strRootFolder & "\AnimatTesting\TestData\CreationTests\NewProjectUITest\")
 
                 'Save the project
                 ClickToolbarItem("SaveToolStripButton", True)
@@ -74,7 +74,7 @@ Namespace UITests
                 ClickToolbarItem("NewToolStripButton", False)
 
                 'Enter text and verify error. Verify the error.
-                ExecuteActiveDialogMethod("SetProjectParams", New Object() {"TestProject", m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\CreationTests"})
+                ExecuteActiveDialogMethod("SetProjectParams", New Object() {"TestProject", m_strRootFolder & "\AnimatTesting\TestProjects\CreationTests"})
                 ExecuteIndirectActiveDialogMethod("ClickOkButton", Nothing, 200, True, True)
                 AssertErrorDialogShown(" already exists. Please choose a different name or location for the project.", enumErrorTextType.Contains)
                 'ExecuteIndirectActiveDialogMethod("ClickOkButton", Nothing, 200, True, True)
@@ -89,7 +89,7 @@ Namespace UITests
                 'garbage collector were firing. This tests this to make sure it does not happen anymore.
 
                 m_strProjectName = "TestCloseOpen"
-                m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\CreationTests"
+                m_strProjectPath = "\AnimatTesting\TestProjects\CreationTests"
 
                 StartExistingProject()
 
@@ -120,14 +120,14 @@ Namespace UITests
                 MyBase.MyTestInitialize()
 
                 'Make sure any left over project directory is cleaned up before starting the test.
-                DeleteDirectory(m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\CreationTests\TestProject")
+                DeleteDirectory(m_strRootFolder & "\AnimatTesting\TestProjects\CreationTests\TestProject")
             End Sub
 
             ' Use TestCleanup to run code after each test has run
             <TestCleanup()> Public Overrides Sub MyTestCleanup()
                 MyBase.MyTestCleanup()
 
-                DeleteDirectory(m_strRootFolder & "\Libraries\AnimatTesting\TestProjects\CreationTests\TestProject")
+                DeleteDirectory(m_strRootFolder & "\AnimatTesting\TestProjects\CreationTests\TestProject")
             End Sub
 
 #End Region

@@ -53,9 +53,9 @@ Namespace UITests
                 '    aryMaxErrors.Add("default", 0.001)
 
                 '    m_strProjectName = "Hexapod"
-                '    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests"
-                '    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\" & m_strProjectName
-                '    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\" & m_strProjectName
+                '    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests"
+                '    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\" & m_strProjectName
+                '    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\" & m_strProjectName
                 '    m_strStructureGroup = "Organisms"
                 '    m_strStruct1Name = "Organism_1"
 
@@ -87,9 +87,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.01)
 
                     m_strProjectName = "Belly Flopper"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\Examples"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\Examples\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\Examples\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\Examples"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\Examples\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\Examples\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -132,9 +132,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.1)
 
                     m_strProjectName = "Stretch Reflex"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\Examples"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\Examples\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\Examples\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\Examples"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\Examples\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\Examples\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 
@@ -193,9 +193,9 @@ Namespace UITests
                     aryMaxErrors.Add("default", 0.1)
 
                     m_strProjectName = "Limb Stiffness"
-                    m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\ConversionTests\TutorialTests\Examples"
-                    m_strTestDataPath = "\Libraries\AnimatTesting\TestData\ConversionTests\TutorialTests\Examples\" & m_strProjectName
-                    m_strOldProjectFolder = "\Libraries\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\Examples\" & m_strProjectName
+                    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\TutorialTests\Examples"
+                    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\TutorialTests\Examples\" & m_strProjectName
+                    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\TutorialTests\Examples\" & m_strProjectName
                     m_strStructureGroup = "Organisms"
                     m_strStruct1Name = "Organism_1"
 

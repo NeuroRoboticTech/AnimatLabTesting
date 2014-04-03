@@ -235,8 +235,8 @@ Namespace UITests
                         MyBase.MyTestInitialize()
 
                         m_strProjectName = "DistanceTest"
-                        m_strProjectPath = "\Libraries\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\JointTests"
-                        m_strTestDataPath = "\Libraries\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\JointTests\" & m_strProjectName
+                        m_strProjectPath = "\AnimatTesting\TestProjects\BodyEditorTests\BodyPartTests\JointTests"
+                        m_strTestDataPath = "\AnimatTesting\TestData\BodyEditorTests\BodyPartTests\JointTests\" & m_strProjectName
                         m_strJointType = "Distance"
 
                         CleanupProjectDirectory()

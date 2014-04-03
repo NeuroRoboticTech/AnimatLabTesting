@@ -168,7 +168,7 @@ Namespace AnimatTesting
             'Click 'Address: C:\Projects\AnimatLabSDK\Experiments\Conv...' tool bar
             Mouse.Click(uIAddressCProjectsAnimToolBar, New Point(285, 9))
 
-            'Select 'C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest' in 'Address' combo box
+            'Select 'C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest' in 'Address' combo box
             uIAddressComboBox.EditableItem = Me.OpenProjectParams.UIAddressComboBoxEditableItem
 
             'Click 'Go to "C:\Projects\AnimatLabSDK\AnimatLabPublicSou...' button
@@ -180,7 +180,7 @@ Namespace AnimatTesting
             'Click '&Open' split button
             Mouse.Click(uIOpenSplitButton, New Point(53, 12))
         End Sub
-        
+
         '''<summary>
         '''OpenUIEditor
         '''</summary>
@@ -194,8 +194,8 @@ Namespace AnimatTesting
             'Click 'Browse...' button
             Mouse.Click(uIBrowseButton, New Point(7, 4))
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public Overridable ReadOnly Property NewProjectDlg_EnterNameAndPathParams() As NewProjectDlg_EnterNameAndPathParams
             Get
                 If (Me.mNewProjectDlg_EnterNameAndPathParams Is Nothing) Then
@@ -204,7 +204,7 @@ Namespace AnimatTesting
                 Return Me.mNewProjectDlg_EnterNameAndPathParams
             End Get
         End Property
-        
+
         Public Overridable ReadOnly Property AddRootPartTypeParams() As AddRootPartTypeParams
             Get
                 If (Me.mAddRootPartTypeParams Is Nothing) Then
@@ -213,7 +213,7 @@ Namespace AnimatTesting
                 Return Me.mAddRootPartTypeParams
             End Get
         End Property
-        
+
         Public Overridable ReadOnly Property AddChildPartTypeWithJointParams() As AddChildPartTypeWithJointParams
             Get
                 If (Me.mAddChildPartTypeWithJointParams Is Nothing) Then
@@ -222,7 +222,7 @@ Namespace AnimatTesting
                 Return Me.mAddChildPartTypeWithJointParams
             End Get
         End Property
-        
+
         Public Overridable ReadOnly Property AddLineChartParams() As AddLineChartParams
             Get
                 If (Me.mAddLineChartParams Is Nothing) Then
@@ -231,7 +231,7 @@ Namespace AnimatTesting
                 Return Me.mAddLineChartParams
             End Get
         End Property
-        
+
         Public Overridable ReadOnly Property AssertNewProjectAlreadyExistsExpectedValues() As AssertNewProjectAlreadyExistsExpectedValues
             Get
                 If (Me.mAssertNewProjectAlreadyExistsExpectedValues Is Nothing) Then
@@ -240,7 +240,7 @@ Namespace AnimatTesting
                 Return Me.mAssertNewProjectAlreadyExistsExpectedValues
             End Get
         End Property
-        
+
         Public Overridable ReadOnly Property OpenProjectParams() As OpenProjectParams
             Get
                 If (Me.mOpenProjectParams Is Nothing) Then
@@ -249,7 +249,7 @@ Namespace AnimatTesting
                 Return Me.mOpenProjectParams
             End Get
         End Property
-        
+
         Public ReadOnly Property UINewProjectWindow() As UINewProjectWindow
             Get
                 If (Me.mUINewProjectWindow Is Nothing) Then
@@ -258,7 +258,7 @@ Namespace AnimatTesting
                 Return Me.mUINewProjectWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UISelectPartTypeWindow() As UISelectPartTypeWindow
             Get
                 If (Me.mUISelectPartTypeWindow Is Nothing) Then
@@ -267,7 +267,7 @@ Namespace AnimatTesting
                 Return Me.mUISelectPartTypeWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UISelectDataToolTypeWindow() As UISelectDataToolTypeWindow
             Get
                 If (Me.mUISelectDataToolTypeWindow Is Nothing) Then
@@ -276,7 +276,7 @@ Namespace AnimatTesting
                 Return Me.mUISelectDataToolTypeWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UISelectDataItemWindow() As UISelectDataItemWindow
             Get
                 If (Me.mUISelectDataItemWindow Is Nothing) Then
@@ -285,7 +285,7 @@ Namespace AnimatTesting
                 Return Me.mUISelectDataItemWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIErrorWindow() As UIErrorWindow
             Get
                 If (Me.mUIErrorWindow Is Nothing) Then
@@ -294,7 +294,7 @@ Namespace AnimatTesting
                 Return Me.mUIErrorWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIBoxTestProjectWindow() As UIBoxTestProjectWindow
             Get
                 If (Me.mUIBoxTestProjectWindow Is Nothing) Then
@@ -303,7 +303,7 @@ Namespace AnimatTesting
                 Return Me.mUIBoxTestProjectWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIToolStripContainer1Window() As UIToolStripContainer1Window
             Get
                 If (Me.mUIToolStripContainer1Window Is Nothing) Then
@@ -312,7 +312,7 @@ Namespace AnimatTesting
                 Return Me.mUIToolStripContainer1Window
             End Get
         End Property
-        
+
         Public ReadOnly Property UIOpenanAnimatLabProjeWindow() As UIOpenanAnimatLabProjeWindow
             Get
                 If (Me.mUIOpenanAnimatLabProjeWindow Is Nothing) Then
@@ -321,7 +321,7 @@ Namespace AnimatTesting
                 Return Me.mUIOpenanAnimatLabProjeWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIIGF_SpikingChemicalSWindow() As UIIGF_SpikingChemicalSWindow
             Get
                 If (Me.mUIIGF_SpikingChemicalSWindow Is Nothing) Then
@@ -330,158 +330,158 @@ Namespace AnimatTesting
                 Return Me.mUIIGF_SpikingChemicalSWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mNewProjectDlg_EnterNameAndPathParams As NewProjectDlg_EnterNameAndPathParams
-        
+
         Private mAddRootPartTypeParams As AddRootPartTypeParams
-        
+
         Private mAddChildPartTypeWithJointParams As AddChildPartTypeWithJointParams
-        
+
         Private mAddLineChartParams As AddLineChartParams
-        
+
         Private mAssertNewProjectAlreadyExistsExpectedValues As AssertNewProjectAlreadyExistsExpectedValues
-        
+
         Private mOpenProjectParams As OpenProjectParams
-        
+
         Private mUINewProjectWindow As UINewProjectWindow
-        
+
         Private mUISelectPartTypeWindow As UISelectPartTypeWindow
-        
+
         Private mUISelectDataToolTypeWindow As UISelectDataToolTypeWindow
-        
+
         Private mUISelectDataItemWindow As UISelectDataItemWindow
-        
+
         Private mUIErrorWindow As UIErrorWindow
-        
+
         Private mUIBoxTestProjectWindow As UIBoxTestProjectWindow
-        
+
         Private mUIToolStripContainer1Window As UIToolStripContainer1Window
-        
+
         Private mUIOpenanAnimatLabProjeWindow As UIOpenanAnimatLabProjeWindow
-        
+
         Private mUIIGF_SpikingChemicalSWindow As UIIGF_SpikingChemicalSWindow
-        #End Region
+#End Region
     End Class
-    
+
     '''<summary>
     '''Parameters to be passed into 'NewProjectDlg_EnterNameAndPath'
     '''</summary>
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class NewProjectDlg_EnterNameAndPathParams
-        
-        #Region "Fields"
+
+#Region "Fields"
         '''<summary>
         '''Type 'TestProject' in 'txtProjectName' text box
         '''</summary>
         Public UITxtProjectNameEditText As String = "TestProject"
-        
+
         '''<summary>
         '''Type '{Tab}' in 'txtProjectName' text box
         '''</summary>
         Public UITxtProjectNameEditSendKeys As String = "{Tab}"
-        
+
         '''<summary>
         '''Type 'C:\Projects\AnimatLabSDK\Experiments' in 'txtLocation' text box
         '''</summary>
         Public UITxtLocationEditText As String = "C:\Projects\AnimatLabSDK\Experiments"
-        #End Region
+#End Region
     End Class
-    
+
     '''<summary>
     '''Parameters to be passed into 'AddRootPartType'
     '''</summary>
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class AddRootPartTypeParams
-        
-        #Region "Fields"
+
+#Region "Fields"
         '''<summary>
         '''Select 'Box' in 'ctrlPartTypes' list box
         '''</summary>
         Public UICtrlPartTypesListSelectedItemsAsString As String = "Box"
-        #End Region
+#End Region
     End Class
-    
+
     '''<summary>
     '''Parameters to be passed into 'AddChildPartTypeWithJoint'
     '''</summary>
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class AddChildPartTypeWithJointParams
-        
-        #Region "Fields"
+
+#Region "Fields"
         '''<summary>
         '''Select 'Box' in 'ctrlPartTypes' list box
         '''</summary>
         Public UICtrlPartTypesListSelectedItemsAsString As String = "Box"
-        
+
         '''<summary>
         '''Select 'Hinge' in 'ctrlPartTypes' list box
         '''</summary>
         Public UICtrlPartTypesListSelectedItemsAsString1 As String = "Hinge"
-        #End Region
+#End Region
     End Class
-    
+
     '''<summary>
     '''Parameters to be passed into 'AddLineChart'
     '''</summary>
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class AddLineChartParams
-        
-        #Region "Fields"
+
+#Region "Fields"
         '''<summary>
         '''Select 'Line Chart' in 'ctrlToolTypes' list box
         '''</summary>
         Public UICtrlToolTypesListSelectedItemsAsString As String = "Line Chart"
-        #End Region
+#End Region
     End Class
-    
+
     '''<summary>
     '''Parameters to be passed into 'AssertNewProjectAlreadyExists'
     '''</summary>
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class AssertNewProjectAlreadyExistsExpectedValues
-        
-        #Region "Fields"
+
+#Region "Fields"
         '''<summary>
         '''Verify that 'txtErrorMsg' text box's property 'Text' ends with '' already exists. Please choose a different name or location for the project.'
         '''</summary>
         Public UITxtErrorMsgEditText As String = "' already exists. Please choose a different name or location for the project."
-        #End Region
+#End Region
     End Class
-    
+
     '''<summary>
     '''Parameters to be passed into 'OpenProject'
     '''</summary>
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class OpenProjectParams
-        
-        #Region "Fields"
+
+#Region "Fields"
         '''<summary>
-        '''Select 'C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest' in 'Address' combo box
+        '''Select 'C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\HingeTest' in 'Address' combo box
         '''</summary>
-        Public UIAddressComboBoxEditableItem As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\TestProjec"& _ 
+        Public UIAddressComboBoxEditableItem As String = "C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\TestProjec" & _
             "ts\ConversionTests\BodyPartTests\JointTests\HingeTest"
-        
+
         '''<summary>
         '''Select 'HingeTest.aproj' in 'File name:' combo box
         '''</summary>
         Public UIFilenameComboBoxEditableItem As String = "HingeTest.aproj"
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UINewProjectWindow
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "New Project"
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.WindowTitles.Add("New Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UINewProjectWindow1() As UINewProjectWindow1
             Get
                 If (Me.mUINewProjectWindow1 Is Nothing) Then
@@ -490,7 +490,7 @@ Namespace AnimatTesting
                 Return Me.mUINewProjectWindow1
             End Get
         End Property
-        
+
         Public ReadOnly Property UITxtLocationWindow() As UITxtLocationWindow
             Get
                 If (Me.mUITxtLocationWindow Is Nothing) Then
@@ -499,7 +499,7 @@ Namespace AnimatTesting
                 Return Me.mUITxtLocationWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIOKWindow() As UIOKWindow
             Get
                 If (Me.mUIOKWindow Is Nothing) Then
@@ -508,7 +508,7 @@ Namespace AnimatTesting
                 Return Me.mUIOKWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UICancelWindow() As UICancelWindow
             Get
                 If (Me.mUICancelWindow Is Nothing) Then
@@ -517,30 +517,30 @@ Namespace AnimatTesting
                 Return Me.mUICancelWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUINewProjectWindow1 As UINewProjectWindow1
-        
+
         Private mUITxtLocationWindow As UITxtLocationWindow
-        
+
         Private mUIOKWindow As UIOKWindow
-        
+
         Private mUICancelWindow As UICancelWindow
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UINewProjectWindow1
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "txtProjectName"
             Me.WindowTitles.Add("New Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UITxtProjectNameEdit() As WinEdit
             Get
                 If (Me.mUITxtProjectNameEdit Is Nothing) Then
@@ -551,24 +551,24 @@ Namespace AnimatTesting
                 Return Me.mUITxtProjectNameEdit
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUITxtProjectNameEdit As WinEdit
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UITxtLocationWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "txtLocation"
             Me.WindowTitles.Add("New Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UITxtLocationEdit() As WinEdit
             Get
                 If (Me.mUITxtLocationEdit Is Nothing) Then
@@ -578,24 +578,24 @@ Namespace AnimatTesting
                 Return Me.mUITxtLocationEdit
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUITxtLocationEdit As WinEdit
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIOKWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "btnOk"
             Me.WindowTitles.Add("New Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIOKButton() As WinButton
             Get
                 If (Me.mUIOKButton Is Nothing) Then
@@ -606,24 +606,24 @@ Namespace AnimatTesting
                 Return Me.mUIOKButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIOKButton As WinButton
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UICancelWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "btnCancel"
             Me.WindowTitles.Add("New Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UICancelButton() As WinButton
             Get
                 If (Me.mUICancelButton Is Nothing) Then
@@ -634,25 +634,25 @@ Namespace AnimatTesting
                 Return Me.mUICancelButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUICancelButton As WinButton
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UISelectPartTypeWindow
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "Select Part Type"
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.WindowTitles.Add("Select Part Type")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UICtrlPartTypesWindow() As UICtrlPartTypesWindow
             Get
                 If (Me.mUICtrlPartTypesWindow Is Nothing) Then
@@ -661,7 +661,7 @@ Namespace AnimatTesting
                 Return Me.mUICtrlPartTypesWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIOKWindow() As UIOKWindow1
             Get
                 If (Me.mUIOKWindow Is Nothing) Then
@@ -670,26 +670,26 @@ Namespace AnimatTesting
                 Return Me.mUIOKWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUICtrlPartTypesWindow As UICtrlPartTypesWindow
-        
+
         Private mUIOKWindow As UIOKWindow1
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UICtrlPartTypesWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "ctrlPartTypes"
             Me.WindowTitles.Add("Select Part Type")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UICtrlPartTypesList() As WinList
             Get
                 If (Me.mUICtrlPartTypesList Is Nothing) Then
@@ -699,24 +699,24 @@ Namespace AnimatTesting
                 Return Me.mUICtrlPartTypesList
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUICtrlPartTypesList As WinList
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIOKWindow1
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "btnOk"
             Me.WindowTitles.Add("Select Part Type")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIOKButton() As WinButton
             Get
                 If (Me.mUIOKButton Is Nothing) Then
@@ -727,25 +727,25 @@ Namespace AnimatTesting
                 Return Me.mUIOKButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIOKButton As WinButton
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UISelectDataToolTypeWindow
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "Select Data Tool Type"
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.WindowTitles.Add("Select Data Tool Type")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UICtrlToolTypesWindow() As UICtrlToolTypesWindow
             Get
                 If (Me.mUICtrlToolTypesWindow Is Nothing) Then
@@ -754,7 +754,7 @@ Namespace AnimatTesting
                 Return Me.mUICtrlToolTypesWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIOKWindow() As UIOKWindow2
             Get
                 If (Me.mUIOKWindow Is Nothing) Then
@@ -763,26 +763,26 @@ Namespace AnimatTesting
                 Return Me.mUIOKWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUICtrlToolTypesWindow As UICtrlToolTypesWindow
-        
+
         Private mUIOKWindow As UIOKWindow2
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UICtrlToolTypesWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "ctrlToolTypes"
             Me.WindowTitles.Add("Select Data Tool Type")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UICtrlToolTypesList() As WinList
             Get
                 If (Me.mUICtrlToolTypesList Is Nothing) Then
@@ -792,24 +792,24 @@ Namespace AnimatTesting
                 Return Me.mUICtrlToolTypesList
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUICtrlToolTypesList As WinList
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIOKWindow2
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "btnOk"
             Me.WindowTitles.Add("Select Data Tool Type")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIOKButton() As WinButton
             Get
                 If (Me.mUIOKButton Is Nothing) Then
@@ -820,25 +820,25 @@ Namespace AnimatTesting
                 Return Me.mUIOKButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIOKButton As WinButton
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UISelectDataItemWindow
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "Select Data Item"
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.WindowTitles.Add("Select Data Item")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UITvStructuresWindow() As UITvStructuresWindow
             Get
                 If (Me.mUITvStructuresWindow Is Nothing) Then
@@ -847,7 +847,7 @@ Namespace AnimatTesting
                 Return Me.mUITvStructuresWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIOKWindow() As UIOKWindow3
             Get
                 If (Me.mUIOKWindow Is Nothing) Then
@@ -856,26 +856,26 @@ Namespace AnimatTesting
                 Return Me.mUIOKWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUITvStructuresWindow As UITvStructuresWindow
-        
+
         Private mUIOKWindow As UIOKWindow3
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UITvStructuresWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "tvStructures"
             Me.WindowTitles.Add("Select Data Item")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UITvStructuresClient() As WinClient
             Get
                 If (Me.mUITvStructuresClient Is Nothing) Then
@@ -885,24 +885,24 @@ Namespace AnimatTesting
                 Return Me.mUITvStructuresClient
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUITvStructuresClient As WinClient
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIOKWindow3
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "btnOk"
             Me.WindowTitles.Add("Select Data Item")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIOKButton() As WinButton
             Get
                 If (Me.mUIOKButton Is Nothing) Then
@@ -913,25 +913,25 @@ Namespace AnimatTesting
                 Return Me.mUIOKButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIOKButton As WinButton
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIErrorWindow
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "Error"
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.WindowTitles.Add("Error")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIThedirectoryCProjectWindow() As UIThedirectoryCProjectWindow
             Get
                 If (Me.mUIThedirectoryCProjectWindow Is Nothing) Then
@@ -940,7 +940,7 @@ Namespace AnimatTesting
                 Return Me.mUIThedirectoryCProjectWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIOKWindow() As UIOKWindow4
             Get
                 If (Me.mUIOKWindow Is Nothing) Then
@@ -949,26 +949,26 @@ Namespace AnimatTesting
                 Return Me.mUIOKWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIThedirectoryCProjectWindow As UIThedirectoryCProjectWindow
-        
+
         Private mUIOKWindow As UIOKWindow4
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIThedirectoryCProjectWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "txtErrorMsg"
             Me.WindowTitles.Add("Error")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UITxtErrorMsgEdit() As WinEdit
             Get
                 If (Me.mUITxtErrorMsgEdit Is Nothing) Then
@@ -978,24 +978,24 @@ Namespace AnimatTesting
                 Return Me.mUITxtErrorMsgEdit
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUITxtErrorMsgEdit As WinEdit
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIOKWindow4
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "btnOk"
             Me.WindowTitles.Add("Error")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIOKButton() As WinButton
             Get
                 If (Me.mUIOKButton Is Nothing) Then
@@ -1006,25 +1006,25 @@ Namespace AnimatTesting
                 Return Me.mUIOKButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIOKButton As WinButton
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIBoxTestProjectWindow
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "BoxTest Project *"
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.WindowTitles.Add("BoxTest Project *")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIStructure_1BodyWindow() As UIStructure_1BodyWindow
             Get
                 If (Me.mUIStructure_1BodyWindow Is Nothing) Then
@@ -1033,7 +1033,7 @@ Namespace AnimatTesting
                 Return Me.mUIStructure_1BodyWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIItemWindow() As UIItemWindow
             Get
                 If (Me.mUIItemWindow Is Nothing) Then
@@ -1042,26 +1042,26 @@ Namespace AnimatTesting
                 Return Me.mUIItemWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIStructure_1BodyWindow As UIStructure_1BodyWindow
-        
+
         Private mUIItemWindow As UIItemWindow
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIStructure_1BodyWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "SimulationWindow_Toolstrips"
             Me.WindowTitles.Add("BoxTest Project *")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIStructure_1BodyClient() As WinClient
             Get
                 If (Me.mUIStructure_1BodyClient Is Nothing) Then
@@ -1072,25 +1072,25 @@ Namespace AnimatTesting
                 Return Me.mUIStructure_1BodyClient
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIStructure_1BodyClient As WinClient
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIItemWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.SearchProperties(WinWindow.PropertyNames.Instance) = "10"
             Me.WindowTitles.Add("BoxTest Project *")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIToolStripContainer1Client() As UIToolStripContainer1Client
             Get
                 If (Me.mUIToolStripContainer1Client Is Nothing) Then
@@ -1099,23 +1099,23 @@ Namespace AnimatTesting
                 Return Me.mUIToolStripContainer1Client
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIToolStripContainer1Client As UIToolStripContainer1Client
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIToolStripContainer1Client
         Inherits WinClient
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.WindowTitles.Add("BoxTest Project *")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UISimulationControllerClient() As WinClient
             Get
                 If (Me.mUISimulationControllerClient Is Nothing) Then
@@ -1126,25 +1126,25 @@ Namespace AnimatTesting
                 Return Me.mUISimulationControllerClient
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUISimulationControllerClient As WinClient
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIToolStripContainer1Window
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "ToolStripContainer1"
             Me.SearchProperties.Add(New PropertyExpression(WinWindow.PropertyNames.ClassName, "WindowsForms10.Window", PropertyExpressionOperator.Contains))
             Me.WindowTitles.Add("ToolStripContainer1")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIAnimatToolStripWindow() As UIAnimatToolStripWindow
             Get
                 If (Me.mUIAnimatToolStripWindow Is Nothing) Then
@@ -1153,24 +1153,24 @@ Namespace AnimatTesting
                 Return Me.mUIAnimatToolStripWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIAnimatToolStripWindow As UIAnimatToolStripWindow
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIAnimatToolStripWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlName) = "AnimatToolStrip"
             Me.WindowTitles.Add("ToolStripContainer1")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIOpenButton() As WinButton
             Get
                 If (Me.mUIOpenButton Is Nothing) Then
@@ -1181,25 +1181,25 @@ Namespace AnimatTesting
                 Return Me.mUIOpenButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIOpenButton As WinButton
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIOpenanAnimatLabProjeWindow
         Inherits WinWindow
-        
+
         Public Sub New()
-            MyBase.New
+            MyBase.New()
             Me.SearchProperties(WinWindow.PropertyNames.Name) = "Open an AnimatLab Project"
             Me.SearchProperties(WinWindow.PropertyNames.ClassName) = "#32770"
             Me.WindowTitles.Add("Open an AnimatLab Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIAddressCProjectsAnimWindow() As UIAddressCProjectsAnimWindow
             Get
                 If (Me.mUIAddressCProjectsAnimWindow Is Nothing) Then
@@ -1208,7 +1208,7 @@ Namespace AnimatTesting
                 Return Me.mUIAddressCProjectsAnimWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIItemWindow() As UIItemWindow1
             Get
                 If (Me.mUIItemWindow Is Nothing) Then
@@ -1217,7 +1217,7 @@ Namespace AnimatTesting
                 Return Me.mUIItemWindow
             End Get
         End Property
-        
+
         Public ReadOnly Property UIItemWindow2() As UIItemWindow2
             Get
                 If (Me.mUIItemWindow2 Is Nothing) Then
@@ -1226,7 +1226,7 @@ Namespace AnimatTesting
                 Return Me.mUIItemWindow2
             End Get
         End Property
-        
+
         Public ReadOnly Property UIItemWindow3() As UIItemWindow3
             Get
                 If (Me.mUIItemWindow3 Is Nothing) Then
@@ -1235,7 +1235,7 @@ Namespace AnimatTesting
                 Return Me.mUIItemWindow3
             End Get
         End Property
-        
+
         Public ReadOnly Property UIOpenWindow() As UIOpenWindow
             Get
                 If (Me.mUIOpenWindow Is Nothing) Then
@@ -1244,62 +1244,62 @@ Namespace AnimatTesting
                 Return Me.mUIOpenWindow
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIAddressCProjectsAnimWindow As UIAddressCProjectsAnimWindow
-        
+
         Private mUIItemWindow As UIItemWindow1
-        
+
         Private mUIItemWindow2 As UIItemWindow2
-        
+
         Private mUIItemWindow3 As UIItemWindow3
-        
+
         Private mUIOpenWindow As UIOpenWindow
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIAddressCProjectsAnimWindow
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlId) = "1001"
             Me.WindowTitles.Add("Open an AnimatLab Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIAddressCProjectsAnimToolBar() As WinToolBar
             Get
                 If (Me.mUIAddressCProjectsAnimToolBar Is Nothing) Then
                     Me.mUIAddressCProjectsAnimToolBar = New WinToolBar(Me)
-                    Me.mUIAddressCProjectsAnimToolBar.SearchProperties(WinToolBar.PropertyNames.Name) = "Address: C:\Projects\AnimatLabSDK\Experiments\ConversionTests\OldVersion\HingeTes"& _ 
+                    Me.mUIAddressCProjectsAnimToolBar.SearchProperties(WinToolBar.PropertyNames.Name) = "Address: C:\Projects\AnimatLabSDK\Experiments\ConversionTests\OldVersion\HingeTes" & _
                         "tNew\Backup"
                     Me.mUIAddressCProjectsAnimToolBar.WindowTitles.Add("Open an AnimatLab Project")
                 End If
                 Return Me.mUIAddressCProjectsAnimToolBar
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIAddressCProjectsAnimToolBar As WinToolBar
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIItemWindow1
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ControlId) = "41477"
             Me.SearchProperties(WinWindow.PropertyNames.Instance) = "3"
             Me.WindowTitles.Add("Open an AnimatLab Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIAddressComboBox() As WinComboBox
             Get
                 If (Me.mUIAddressComboBox Is Nothing) Then
@@ -1310,25 +1310,25 @@ Namespace AnimatTesting
                 Return Me.mUIAddressComboBox
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIAddressComboBox As WinComboBox
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIItemWindow2
         Inherits WinWindow
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.SearchProperties(WinWindow.PropertyNames.ClassName) = "ToolbarWindow32"
             Me.SearchProperties(WinWindow.PropertyNames.Instance) = "2"
             Me.WindowTitles.Add("Open an AnimatLab Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIItemToolBar() As UIItemToolBar
             Get
                 If (Me.mUIItemToolBar Is Nothing) Then
@@ -1337,39 +1337,39 @@ Namespace AnimatTesting
                 Return Me.mUIItemToolBar
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIItemToolBar As UIItemToolBar
-        #End Region
+#End Region
     End Class
-    
-    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
+
+    <GeneratedCode("Coded UITest Builder", "10.0.40219.1")> _
     Public Class UIItemToolBar
         Inherits WinToolBar
-        
+
         Public Sub New(ByVal searchLimitContainer As UITestControl)
             MyBase.New(searchLimitContainer)
             Me.WindowTitles.Add("Open an AnimatLab Project")
         End Sub
-        
-        #Region "Properties"
+
+#Region "Properties"
         Public ReadOnly Property UIGotoCProjectsAnimatLButton() As WinButton
             Get
                 If (Me.mUIGotoCProjectsAnimatLButton Is Nothing) Then
                     Me.mUIGotoCProjectsAnimatLButton = New WinButton(Me)
-                    Me.mUIGotoCProjectsAnimatLButton.SearchProperties(WinButton.PropertyNames.Name) = "Go to ""C:\Projects\AnimatLabSDK\AnimatLabPublicSource\Libraries\AnimatTesting\Tes"& _ 
+                    Me.mUIGotoCProjectsAnimatLButton.SearchProperties(WinButton.PropertyNames.Name) = "Go to ""C:\Projects\AnimatLabSDK\AnimatLabPublicSource\AnimatTesting\Tes" & _
                         "tProjects\ConversionTests\BodyPartTests\JointTests\HingeTest"""
                     Me.mUIGotoCProjectsAnimatLButton.WindowTitles.Add("Open an AnimatLab Project")
                 End If
                 Return Me.mUIGotoCProjectsAnimatLButton
             End Get
         End Property
-        #End Region
-        
-        #Region "Fields"
+#End Region
+
+#Region "Fields"
         Private mUIGotoCProjectsAnimatLButton As WinButton
-        #End Region
+#End Region
     End Class
     
     <GeneratedCode("Coded UITest Builder", "10.0.40219.1")>  _
