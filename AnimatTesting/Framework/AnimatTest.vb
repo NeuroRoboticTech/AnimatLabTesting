@@ -105,7 +105,7 @@ Namespace Framework
                 End If
                 strArgs = strArgs & " -Port " & iPort.ToString
 
-                Process.Start(m_strExecutableFolder & "\AnimatLab2.exe", strArgs)
+                Process.Start(m_strExecutableFolder & "\bin\AnimatLab2.exe", strArgs)
                 'Process.Start("C:\Program Files (x86)\NeuroRobotic Technologies\AnimatLab\2.0.7\bin\AnimatLab2.exe", strArgs)
 
                 Threading.Thread.Sleep(3000)

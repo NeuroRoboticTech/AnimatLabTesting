@@ -34,7 +34,7 @@ Namespace UITests
                         If strPartType = m_strPartType Then
                             'Wait for the collision mesh dialog to show, fill it in and hit ok
                             OpenDialogAndWait("Select Mesh", Nothing, Nothing)
-                            ExecuteActiveDialogMethod("SetMeshParameters", New Object() {(m_strRootFolder & "\bin\Resources\" & m_strMeshFile), "Convex"})
+                            ExecuteActiveDialogMethod("SetMeshParameters", New Object() {(m_strExecutableFolder & "\bin\Resources\" & m_strMeshFile), "Convex"})
                             ExecuteIndirectActiveDialogMethod("ClickOkButton", Nothing)
 
                             'Wait for the graphics mesh to show and hit ok.
@@ -49,9 +49,9 @@ Namespace UITests
                         'Wait for the collision mesh dialog to show, fill it in and hit ok
                         OpenDialogAndWait("Select Mesh", Nothing, Nothing)
                         If m_strPhysicsEngine = "Vortex" Then
-                            ExecuteActiveDialogMethod("SetMeshParameters", New Object() {(m_strRootFolder & "\bin\Resources\" & m_strMeshFile), "Triangular"})
+                            ExecuteActiveDialogMethod("SetMeshParameters", New Object() {(m_strExecutableFolder & "\bin\Resources\" & m_strMeshFile), "Triangular"})
                         Else
-                            ExecuteActiveDialogMethod("SetMeshParameters", New Object() {(m_strRootFolder & "\bin\Resources\" & m_strMeshFile), "Convex"})
+                            ExecuteActiveDialogMethod("SetMeshParameters", New Object() {(m_strExecutableFolder & "\bin\Resources\" & m_strMeshFile), "Convex"})
                         End If
                         ExecuteIndirectActiveDialogMethod("ClickOkButton", Nothing)
 
@@ -62,7 +62,7 @@ Namespace UITests
 
                     Protected Overrides Sub SimulateBeforeChildRemoved()
 
-                        ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & m_strStruct1Name & "\Body Plan\Root", "MeshFile", m_strRootFolder & "\bin\Resources\" & m_strSecondaryMeshFile})
+                        ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & m_strStruct1Name & "\Body Plan\Root", "MeshFile", m_strExecutableFolder & "\bin\Resources\" & m_strSecondaryMeshFile})
 
                         'Run the simulation and wait for it to end.
                         RunSimulationWaitToEnd()
@@ -70,7 +70,7 @@ Namespace UITests
                         'Compare chart data to verify simulation results.
                         CompareSimulation(m_strRootFolder & m_strTestDataPath, "AfterStruct_")
 
-                        ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & m_strStruct1Name & "\Body Plan\Root", "MeshFile", m_strRootFolder & "\bin\Resources\" & m_strMeshFile})
+                        ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & m_strStruct1Name & "\Body Plan\Root", "MeshFile", m_strExecutableFolder & "\bin\Resources\" & m_strMeshFile})
 
                     End Sub
 

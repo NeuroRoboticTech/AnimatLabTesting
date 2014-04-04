@@ -98,7 +98,7 @@ Namespace UITests
                         If strPartType = m_strPartType Then
                             'Wait for the collision mesh dialog to show, fill it in and hit ok
                             OpenDialogAndWait("Select Terrain", Nothing, Nothing)
-                            ExecuteActiveDialogMethod("SetTerrainParameters", New Object() {(m_strRootFolder & "\bin\Resources\TerrainTest_HeightMap.jpg"), (m_strRootFolder & "\bin\Resources\Bricks.bmp"), 0.1, 0.1, 0.5})
+                            ExecuteActiveDialogMethod("SetTerrainParameters", New Object() {(m_strExecutableFolder & "\bin\Resources\TerrainTest_HeightMap.jpg"), (m_strExecutableFolder & "\bin\Resources\Bricks.bmp"), 0.1, 0.1, 0.5})
                             ExecuteIndirectActiveDialogMethod("ClickOkButton", Nothing)
                         End If
 
@@ -134,7 +134,7 @@ Namespace UITests
 
                         'Set the texture to an valid value.
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & m_strStruct1Name & "\Body Plan\Root", "MeshFile", _
-                                                                                    (m_strRootFolder & "\bin\Resources\Small_Offset_Bowl_Heightfield.jpg")})
+                                                                                    (m_strExecutableFolder & "\bin\Resources\Small_Offset_Bowl_Heightfield.jpg")})
                         'Reposition the structure
                         If m_strPhysicsEngine = "Bullet" Then
                             ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\Structure_2\Body Plan\Root", "WorldPosition.X", "-60 c"})
@@ -154,7 +154,7 @@ Namespace UITests
 
                         'Set the texture to an valid value.
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & m_strStruct1Name & "\Body Plan\Root", "MeshFile", _
-                                                                                    (m_strRootFolder & "\bin\Resources\Small_Offset_Bowl_Heightfield_2.jpg")})
+                                                                                    (m_strExecutableFolder & "\bin\Resources\Small_Offset_Bowl_Heightfield_2.jpg")})
                         'Reposition the structure
                         If m_strPhysicsEngine = "Bullet" Then
                             ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\Structure_2\Body Plan\Root", "WorldPosition.X", "32 c"})

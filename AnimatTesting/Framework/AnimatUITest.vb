@@ -829,14 +829,14 @@ Namespace Framework
             If m_bTestTexture Then
                 'Set the texture to an valid value.
                 ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & strStructure & "\Body Plan\" & strPart, "Texture", _
-                                                                            (m_strRootFolder & "\bin\Resources\" & m_strTextureFile)})
+                                                                            (m_strExecutableFolder & "\bin\Resources\" & m_strTextureFile)})
                 'Set the texture to an invalid value.
                 ExecuteMethodAssertError("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & strStructure & "\Body Plan\" & strPart, "Texture", _
-                                                                            (m_strRootFolder & "\bin\Resources\Bricks.gif")}, "The specified file does not exist: ", enumErrorTextType.BeginsWith)
+                                                                            (m_strExecutableFolder & "\bin\Resources\Bricks.gif")}, "The specified file does not exist: ", enumErrorTextType.BeginsWith)
 
                 'Set the texture to an invalid value.
                 ExecuteMethodAssertError("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & strStructure & "\Body Plan\" & strPart, "Texture", _
-                                                                            (m_strRootFolder & "\bin\Resources\Test.txt")}, "Unable to load the texture file. This does not appear to be a vaild image file.", enumErrorTextType.BeginsWith)
+                                                                            (m_strExecutableFolder & "\bin\Resources\Test.txt")}, "Unable to load the texture file. This does not appear to be a vaild image file.", enumErrorTextType.BeginsWith)
             End If
 
         End Sub
@@ -846,14 +846,14 @@ Namespace Framework
 
             'Set the texture to an valid value.
             ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & strStructure & "\Body Plan\" & strPart, "MeshFile", _
-                                                                        (m_strRootFolder & "\bin\Resources\" & m_strMeshFile)})
+                                                                        (m_strExecutableFolder & "\bin\Resources\" & m_strMeshFile)})
             'Set the texture to an invalid value.
             ExecuteMethodAssertError("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & strStructure & "\Body Plan\" & strPart, "MeshFile", _
-                                                                        (m_strRootFolder & "\bin\Resources\Bricks.gif")}, "The specified file does not exist: ", enumErrorTextType.BeginsWith)
+                                                                        (m_strExecutableFolder & "\bin\Resources\Bricks.gif")}, "The specified file does not exist: ", enumErrorTextType.BeginsWith)
 
             'Set the texture to an invalid value.
             ExecuteMethodAssertError("SetObjectProperty", New Object() {"Simulation\Environment\" & m_strStructureGroup & "\" & strStructure & "\Body Plan\" & strPart, "MeshFile", _
-                                                                        (m_strRootFolder & "\bin\Resources\Test.txt")}, "Unable to load the height map file. This does not appear to be a vaild image file.", enumErrorTextType.BeginsWith)
+                                                                        (m_strExecutableFolder & "\bin\Resources\Test.txt")}, "Unable to load the height map file. This does not appear to be a vaild image file.", enumErrorTextType.BeginsWith)
 
         End Sub
 

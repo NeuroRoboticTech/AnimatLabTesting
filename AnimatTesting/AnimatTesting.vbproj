@@ -175,7 +175,6 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="appSettings.config" />
     <None Include="UIMap.uitest" />
   </ItemGroup>
   <ItemGroup>
