@@ -53,9 +53,9 @@ Namespace UITests
 
                         Dim aryMaxErrors As New Hashtable
                         aryMaxErrors.Add("Time", 0.001)
-                        aryMaxErrors.Add("TotalStepTimeSmoothed", 0.0005)
-                        aryMaxErrors.Add("FrameRate", 3)
-                        aryMaxErrors.Add("default", 0.0005)
+                        aryMaxErrors.Add("TotalStepTimeSmoothed", 0.005)
+                        aryMaxErrors.Add("FrameRate", 10)
+                        aryMaxErrors.Add("default", 0.005)
 
                         m_strProjectName = "OdorMouthAndEating"
                         m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"

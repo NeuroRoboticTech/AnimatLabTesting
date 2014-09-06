@@ -1616,7 +1616,7 @@ Namespace UITests
                     CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "Disabled_")
 
                     ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\A_1", "Enabled", "True"})
-                    ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\A_1", "DataTypes", "IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking.DataTypes.ExternalCurrent"})
+                    ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\A_1", "SourceDataTypes", "IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking.DataTypes.ExternalCurrent"})
                     ExecuteMethod("OpenUITypeEditor", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\A_1", "Gain"}, 500)
                     ExecuteActiveDialogMethod("SelectGainType", New Object() {"AnimatGUI.DataObjects.Gains.Sigmoid"})
                     ExecuteActiveDialogMethod("SetGainProperty", New Object() {"Amplitude", "10 n"})
@@ -1661,7 +1661,7 @@ Namespace UITests
                     End If
                     ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\2", "Name", "1_B"})
 
-                    ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\1_B", "DataTypes", "FiringRateGUI.DataObjects.Behavior.Neurons.Normal.DataTypes.FiringFrequency"})
+                    ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\1_B", "SourceDataTypes", "FiringRateGUI.DataObjects.Behavior.Neurons.Normal.DataTypes.FiringFrequency"})
                     ExecuteMethod("OpenUITypeEditor", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\1_B", "Gain"}, 500)
                     ExecuteActiveDialogMethod("SelectGainType", New Object() {"AnimatGUI.DataObjects.Gains.Sigmoid"})
                     ExecuteActiveDialogMethod("SetGainProperty", New Object() {"Amplitude", "10 n"})

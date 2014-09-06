@@ -202,7 +202,7 @@ Namespace UITests
                         End If
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\S2\2", "Name", "BS_BC"})
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\S2\BS_BC", "Gain.C", "10 n"})
-                        ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\S2\BS_BC", "DataTypes", "AnimatGUI.DataObjects.Physical.Bodies.Box.DataTypes.ContactCount"})
+                        ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Behavioral System\Neural Subsystem\S2\BS_BC", "SourceDataTypes", "AnimatGUI.DataObjects.Physical.Bodies.Box.DataTypes.ContactCount"})
 
                         RunSimulationWaitToEnd()
                         CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "AfterConversion_", -1, aryIgnoreRows)

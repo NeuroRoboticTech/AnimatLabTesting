@@ -68,41 +68,41 @@ Namespace UITests
 
                     End Sub
 
-                    <TestMethod(), _
-                      DataSource("System.Data.OleDb", _
-                                 "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=TestCases.accdb;Persist Security Info=False;", _
-                                 "PrismaticLimitTestData", _
-                                 DataAccessMethod.Sequential), _
-                      DeploymentItem("TestCases.accdb")>
-                    Public Sub Test_PrismaticLimits()
-                        If Not SetPhysicsEngine(TestContext.DataRow) Then Return
+                    '<TestMethod(), _
+                    '  DataSource("System.Data.OleDb", _
+                    '             "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=TestCases.accdb;Persist Security Info=False;", _
+                    '             "PrismaticLimitTestData", _
+                    '             DataAccessMethod.Sequential), _
+                    '  DeploymentItem("TestCases.accdb")>
+                    'Public Sub Test_PrismaticLimits()
+                    '    If Not SetPhysicsEngine(TestContext.DataRow) Then Return
 
-                        m_strProjectName = TestContext.DataRow("TestName").ToString
-                        Dim dblMin As Single = CSng(TestContext.DataRow("Min"))
-                        Dim dblMax As Single = CSng(TestContext.DataRow("Max"))
-                        Dim dblDamping As Single = CSng(TestContext.DataRow("Damping"))
-                        Dim strRestitution As Single = CSng(TestContext.DataRow("Restitution"))
-                        Dim strStiffness As Single = CSng(TestContext.DataRow("Stiffness"))
-                        Dim strDataPrefix As String = CStr(TestContext.DataRow("DataPrefix"))
-                        Dim bEnabled As Boolean = CBool(TestContext.DataRow("Enabled"))
+                    '    m_strProjectName = TestContext.DataRow("TestName").ToString
+                    '    Dim dblMin As Single = CSng(TestContext.DataRow("Min"))
+                    '    Dim dblMax As Single = CSng(TestContext.DataRow("Max"))
+                    '    Dim dblDamping As Single = CSng(TestContext.DataRow("Damping"))
+                    '    Dim strRestitution As Single = CSng(TestContext.DataRow("Restitution"))
+                    '    Dim strStiffness As Single = CSng(TestContext.DataRow("Stiffness"))
+                    '    Dim strDataPrefix As String = CStr(TestContext.DataRow("DataPrefix"))
+                    '    Dim bEnabled As Boolean = CBool(TestContext.DataRow("Enabled"))
 
-                        Dim aryMaxErrors As New Hashtable
-                        aryMaxErrors.Add("Time", 0.001)
-                        aryMaxErrors.Add("Body_X", CSng(TestContext.DataRow("MaxBodyXError")))
-                        aryMaxErrors.Add("Body_Y", CSng(TestContext.DataRow("MaxBodyYError")))
-                        aryMaxErrors.Add("Body_Z", CSng(TestContext.DataRow("MaxBodyZError")))
-                        aryMaxErrors.Add("Joint_1", CSng(TestContext.DataRow("MaxJointError")))
-                        aryMaxErrors.Add("default", 0.04)
+                    '    Dim aryMaxErrors As New Hashtable
+                    '    aryMaxErrors.Add("Time", 0.001)
+                    '    aryMaxErrors.Add("Body_X", CSng(TestContext.DataRow("MaxBodyXError")))
+                    '    aryMaxErrors.Add("Body_Y", CSng(TestContext.DataRow("MaxBodyYError")))
+                    '    aryMaxErrors.Add("Body_Z", CSng(TestContext.DataRow("MaxBodyZError")))
+                    '    aryMaxErrors.Add("Joint_1", CSng(TestContext.DataRow("MaxJointError")))
+                    '    aryMaxErrors.Add("default", 0.04)
 
-                        m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\PrismaticTests"
-                        m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\PrismaticTests\" & m_strProjectName
-                        m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\PrismaticTests\" & m_strProjectName
+                    '    m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\JointTests\PrismaticTests"
+                    '    m_strTestDataPath = "\AnimatTesting\TestData\ConversionTests\BodyPartTests\JointTests\PrismaticTests\" & m_strProjectName
+                    '    m_strOldProjectFolder = "\AnimatTesting\TestProjects\ConversionTests\OldVersions\BodyPartTests\JointTests\PrismaticTests\" & m_strProjectName
 
-                        ModifyJointConstraintsInProjectFile(m_strOldProjectFolder, dblMin, dblMax, False, dblDamping, strRestitution, strStiffness)
+                    '    ModifyJointConstraintsInProjectFile(m_strOldProjectFolder, dblMin, dblMax, False, dblDamping, strRestitution, strStiffness)
 
-                        TestConversionProject(strDataPrefix, 2000)
+                    '    TestConversionProject(strDataPrefix, 2000)
 
-                    End Sub
+                    'End Sub
 
                     <TestMethod(), _
                       DataSource("System.Data.OleDb", _
