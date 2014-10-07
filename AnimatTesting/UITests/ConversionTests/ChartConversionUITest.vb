@@ -71,6 +71,15 @@ Namespace UITests
                 m_strStructureGroup = "Organisms"
                 m_strStruct1Name = "Organism_1"
 
+                Dim aryIgnoreRows As New ArrayList
+
+                aryIgnoreRows.Add(New Point(150, 460))
+                aryIgnoreRows.Add(New Point(1140, 1450))
+                aryIgnoreRows.Add(New Point(2140, 2450))
+                aryIgnoreRows.Add(New Point(3140, 3450))
+                aryIgnoreRows.Add(New Point(4140, 4450))
+                aryIgnoreRows.Add(New Point(5140, 5450))
+
                 m_aryWindowsToOpen.Clear()
 
                 ConvertProject()
@@ -87,7 +96,7 @@ Namespace UITests
                 ExecuteMethod("DblClickWorkspaceItem", New Object() {"Tool Viewers\BodyData"}, 2000)
 
                 RunSimulationWaitToEnd()
-                CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "DeleteNeuronsBeforeChartOpen_")
+                CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "DeleteNeuronsBeforeChartOpen_", , aryIgnoreRows)
 
             End Sub
 

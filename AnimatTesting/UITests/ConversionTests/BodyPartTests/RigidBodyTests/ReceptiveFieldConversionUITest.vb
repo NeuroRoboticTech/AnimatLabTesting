@@ -52,19 +52,36 @@ Namespace UITests
 
                         Dim aryMaxErrors As New Hashtable
                         aryMaxErrors.Add("Time", 0.001)
-                        aryMaxErrors.Add("A1", 0.01)
-                        aryMaxErrors.Add("A2", 0.01)
-                        aryMaxErrors.Add("A3", 0.01)
-                        aryMaxErrors.Add("A4", 0.01)
-                        aryMaxErrors.Add("A5", 0.01)
-                        aryMaxErrors.Add("A6", 0.01)
-                        aryMaxErrors.Add("A1Ia", 0.000000005)
-                        aryMaxErrors.Add("A2Ia", 0.000000005)
-                        aryMaxErrors.Add("A3Ia", 0.000000005)
-                        aryMaxErrors.Add("A4Ia", 0.000000005)
-                        aryMaxErrors.Add("A5Ia", 0.000000005)
-                        aryMaxErrors.Add("A6Ia", 0.000000005)
-                        aryMaxErrors.Add("default", 0.001)
+
+                        If m_strPhysicsEngine = "Bullet" Then
+                            aryMaxErrors.Add("A1", 1)
+                            aryMaxErrors.Add("A2", 1)
+                            aryMaxErrors.Add("A3", 1)
+                            aryMaxErrors.Add("A4", 1)
+                            aryMaxErrors.Add("A5", 1)
+                            aryMaxErrors.Add("A6", 1)
+                            aryMaxErrors.Add("A1Ia", 0.000001)
+                            aryMaxErrors.Add("A2Ia", 0.000001)
+                            aryMaxErrors.Add("A3Ia", 0.000001)
+                            aryMaxErrors.Add("A4Ia", 0.000001)
+                            aryMaxErrors.Add("A5Ia", 0.000001)
+                            aryMaxErrors.Add("A6Ia", 0.000001)
+                            aryMaxErrors.Add("default", 1)
+                        Else
+                            aryMaxErrors.Add("A1", 0.02)
+                            aryMaxErrors.Add("A2", 0.02)
+                            aryMaxErrors.Add("A3", 0.02)
+                            aryMaxErrors.Add("A4", 0.02)
+                            aryMaxErrors.Add("A5", 0.02)
+                            aryMaxErrors.Add("A6", 0.02)
+                            aryMaxErrors.Add("A1Ia", 0.00000001)
+                            aryMaxErrors.Add("A2Ia", 0.00000001)
+                            aryMaxErrors.Add("A3Ia", 0.00000001)
+                            aryMaxErrors.Add("A4Ia", 0.00000001)
+                            aryMaxErrors.Add("A5Ia", 0.00000001)
+                            aryMaxErrors.Add("A6Ia", 0.00000001)
+                            aryMaxErrors.Add("default", 0.001)
+                        End If
 
                         m_strProjectName = "ReceptiveFields"
                         m_strProjectPath = "\AnimatTesting\TestProjects\ConversionTests\BodyPartTests\RigidBodyTests"
@@ -76,23 +93,50 @@ Namespace UITests
                         m_aryWindowsToOpen.Clear()
                         m_aryWindowsToOpen.Add("Tool Viewers\BodyData")
 
+                        Dim aryIgnoreRows As New ArrayList
+
+                        aryIgnoreRows.Add(New Point(150, 510))
+                        aryIgnoreRows.Add(New Point(1140, 1500))
+                        aryIgnoreRows.Add(New Point(2140, 2500))
+                        aryIgnoreRows.Add(New Point(3140, 3500))
+                        aryIgnoreRows.Add(New Point(4140, 4500))
+                        aryIgnoreRows.Add(New Point(5140, 5500))
+
                         'Load and convert the project.
-                        TestConversionProject("AfterConversion_", aryMaxErrors)
+                        TestConversionProject("AfterConversion_", aryMaxErrors, , aryIgnoreRows)
 
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Skin\Body Plan\Skin", "ReceptiveFieldSensor.ReceptiveCurrentGain.C", "100 n"})
 
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "CurrentGain_C_100n_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "CurrentGain_C_100n_", , aryIgnoreRows)
 
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Skin\Body Plan\Skin", "ReceptiveFieldSensor.ReceptiveFieldGain.Width", "300 "})
 
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "FieldGain_Width_300_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "FieldGain_Width_300_", , aryIgnoreRows)
 
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Skin\Body Plan\Skin", "ReceptiveFieldSensor.ReceptiveFieldGain.Width", "50 "})
 
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "FieldGain_Width_50_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "FieldGain_Width_50_", , aryIgnoreRows)
+
+                        If m_strPhysicsEngine = "Bullet" Then
+                            aryMaxErrors.Clear()
+                            aryMaxErrors.Add("Time", 0.001)
+                            aryMaxErrors.Add("A1", 0.1)
+                            aryMaxErrors.Add("A2", 0.1)
+                            aryMaxErrors.Add("A3", 0.1)
+                            aryMaxErrors.Add("A4", 0.1)
+                            aryMaxErrors.Add("A5", 0.1)
+                            aryMaxErrors.Add("A6", 0.1)
+                            aryMaxErrors.Add("A1Ia", 0.0000005)
+                            aryMaxErrors.Add("A2Ia", 0.0000005)
+                            aryMaxErrors.Add("A3Ia", 0.0000005)
+                            aryMaxErrors.Add("A4Ia", 0.0000005)
+                            aryMaxErrors.Add("A5Ia", 0.0000005)
+                            aryMaxErrors.Add("A6Ia", 0.0000005)
+                            aryMaxErrors.Add("default", 0.1)
+                        End If
 
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Skin\Body Plan\Skin", "ReceptiveFieldSensor.ReceptiveFieldGain.Width", "150 "})
 
@@ -118,7 +162,7 @@ Namespace UITests
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Skin\Body Plan\Skin", "ReceptiveFieldSensor.ReceptiveFieldGain.Width", "150 "})
 
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "ResetFields_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "ResetFields_", , aryIgnoreRows)
 
 
                         ExecuteMethod("DblClickWorkspaceItem", New Object() {"Simulation\Environment\Organisms\Skin\Body Plan"}, 2000)
@@ -193,8 +237,15 @@ Namespace UITests
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Tool Viewers\BodyData\LineChart", "CollectEndTime", "14"})
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation", "SimulationEndTime", "15"})
 
+                        aryIgnoreRows.Add(New Point(650, 1010))
+                        aryIgnoreRows.Add(New Point(1650, 2010))
+                        aryIgnoreRows.Add(New Point(2650, 3010))
+                        aryIgnoreRows.Add(New Point(3650, 4010))
+                        aryIgnoreRows.Add(New Point(4650, 5010))
+                        aryIgnoreRows.Add(New Point(5650, 6010))
+
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "AddSkin2_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "AddSkin2_", , aryIgnoreRows)
 
                         ExecuteMethod("SelectWorkspaceItem", New Object() {"Simulation\Environment\Organisms\Skin\Body Plan\Skin", False})
                         ExecuteAppPropertyMethod("ReceptiveFieldPairs", "Automation_ClearReceptiveFieldPairs", Nothing)
@@ -203,7 +254,7 @@ Namespace UITests
                         ExecuteAppPropertyMethod("ReceptiveFieldPairs", "Automation_VerifyFieldPairCount", New Object() {6})
 
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "ClearSkin1_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "ClearSkin1_", , aryIgnoreRows)
 
                     End Sub
 
@@ -232,22 +283,31 @@ Namespace UITests
                         m_strStructureGroup = "Organisms"
                         m_strStruct1Name = "Organism_1"
 
+                        Dim aryIgnoreRows As New ArrayList
+
+                        aryIgnoreRows.Add(New Point(150, 510))
+                        aryIgnoreRows.Add(New Point(1140, 1500))
+                        aryIgnoreRows.Add(New Point(2140, 2500))
+                        aryIgnoreRows.Add(New Point(3140, 3500))
+                        aryIgnoreRows.Add(New Point(4140, 4500))
+                        aryIgnoreRows.Add(New Point(5140, 5500))
+
                         m_aryWindowsToOpen.Clear()
                         m_aryWindowsToOpen.Add("Tool Viewers\BodyData")
 
                         'Load and convert the project.
-                        TestConversionProject("AfterConversion_", aryMaxErrors)
+                        TestConversionProject("AfterConversion_", aryMaxErrors, , aryIgnoreRows)
 
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Body Plan\Root", "Rotation.X", "180 "})
 
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "FlipX_180_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "FlipX_180_", , aryIgnoreRows)
 
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Body Plan\Root", "Rotation.X", "0 "})
                         ExecuteIndirectMethod("SetObjectProperty", New Object() {"Simulation\Environment\Organisms\Organism_1\Body Plan\Root", "ReceptiveFieldSensor.ReceptiveFieldGain.Width", "1 "})
 
                         RunSimulationWaitToEnd()
-                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "Field_Gain_Width_1_")
+                        CompareSimulation(m_strRootFolder & m_strTestDataPath, aryMaxErrors, "Field_Gain_Width_1_", , aryIgnoreRows)
 
                     End Sub
 
