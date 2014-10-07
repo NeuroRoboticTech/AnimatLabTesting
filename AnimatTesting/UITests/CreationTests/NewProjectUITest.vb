@@ -64,7 +64,7 @@ Namespace UITests
                 RunSimulationWaitToEnd()
 
                 'Compare chart data to verify simulation results.
-                CompareSimulation(m_strRootFolder & "\AnimatTesting\TestData\CreationTests\NewProjectUITest\")
+                CompareSimulation(m_strRootFolder & "\AnimatTesting\TestData\CreationTests\NewProjectUITest\", "", 0.3)
 
                 'Save the project
                 ClickToolbarItem("SaveToolStripButton", True)
