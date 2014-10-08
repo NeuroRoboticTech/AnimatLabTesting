@@ -132,6 +132,8 @@
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Box</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Box</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
 <IsContactSensor>False</IsContactSensor>
 <IsCollisionObject>True</IsCollisionObject>
 <BuoyancyCenter>
@@ -195,6 +197,8 @@
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Cone</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Cone</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
 <IsContactSensor>False</IsContactSensor>
 <IsCollisionObject>True</IsCollisionObject>
 <BuoyancyCenter>
@@ -257,6 +261,8 @@
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Distance</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Joints.Distance</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
 <Size Value="5" Scale="milli" Actual="0.005"/>
 <EnableLimits>True</EnableLimits>
 <Relaxation1>
@@ -306,6 +312,8 @@
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Box</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Box</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
 <IsContactSensor>False</IsContactSensor>
 <IsCollisionObject>False</IsCollisionObject>
 <BuoyancyCenter>
@@ -417,6 +425,8 @@
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Plane</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Plane</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
 <IsContactSensor>False</IsContactSensor>
 <IsCollisionObject>True</IsCollisionObject>
 <BuoyancyCenter>
@@ -573,8 +583,8 @@
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>c06ac857-708a-4d33-9880-aecc99d228e8</Name>
-<ID>c06ac857-708a-4d33-9880-aecc99d228e8</ID>
+<Name>cdb7d628-c49d-4cb0-86ed-a5584a29f2d1</Name>
+<ID>cdb7d628-c49d-4cb0-86ed-a5584a29f2d1</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -668,7 +678,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="08/13/2014 09:12:18"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="10/07/2014 18:26:59"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
